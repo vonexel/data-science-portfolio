@@ -95,15 +95,15 @@ Modeling:
 ## EDA Highlights
 
 <div align="center">
-  <img src="./Income%20Level%20Classification/income.png">
+  <img src="https://github.com/vonexel/data-science-portfolio/blob/master/Income%20Level%20Classification/income.png">
 </div>
 
 <div align="center">
-  <img src="./Income%20Level%20Classification/age.png">
+  <img src="https://github.com/vonexel/data-science-portfolio/blob/master/Income%20Level%20Classification/age.png">
 </div>
 
 <div align="center">
-  <img src="./Income%20Level%20Classification/hours_per_week.png">
+  <img src="https://github.com/vonexel/data-science-portfolio/blob/master/Income%20Level%20Classification/hours_per_week.png">
 </div>
 
 Key observations from exploratory analysis:
@@ -124,7 +124,7 @@ Key observations from exploratory analysis:
 ### Missing values
 
 <div align="center">
-  <img src="./Income%20Level%20Classification/missing_values_plot.png">
+  <img src="https://github.com/vonexel/data-science-portfolio/blob/master/Income%20Level%20Classification/missing_values_plot.png">
 </div>
 
 Baseline approach (simple, but can discard signal):
@@ -140,7 +140,7 @@ Chosen approach (keeps data, reduces information loss):
 Hyperparameters for each imputation model were tuned with **Optuna**.
 
 <div align="center">
-  <img src="./Income%20Level%20Classification/imputation_quality.png">
+  <img src="https://github.com/vonexel/data-science-portfolio/blob/master/Income%20Level%20Classification/imputation_quality.png">
 </div>
 
 Imputation quality (train F1, weighted):
